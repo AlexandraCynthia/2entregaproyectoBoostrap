@@ -146,8 +146,17 @@ font-size: 20px;
 justify-content: center;
 }
 
+
+.gastronomia p{
+display: flex;
+flex-direction: column;
+text-align: justify;
+}
+
 p{
 padding: 14px 14px;
+display: flex;
+text-align: justify;
 }
 
 .ubicacion{
@@ -170,4 +179,17 @@ margin: 0 !important;
 #galeria img:hover{
   border: 5px solid #876445;
   box-shadow: 2px 2px 5px black;
+}
+
+
+/*Medidas Query*/
+
+@media(max-width: 768px){
+
+.tituloencabezado{
+  height: 550px;
+ }
+
+
+
 }
